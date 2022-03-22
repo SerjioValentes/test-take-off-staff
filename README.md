@@ -1,10 +1,14 @@
-###Испроавить:
+##Install Packages
+- npm install
 
-- Добавить поле user для логина 
-- проверку на name / number
-- при редактировании сохраняется последнее имя если ничего не вводить
+##Start project 
+- nmp start
+ 
+## Stack:
+- React / Redux / Typescript / 
 
-- Добавить новый элемент в редьюсер для добавления нового контакта
-иначе он работает так же как в сэйв
-  
-- Добавить комменты в разметку дома 
+##What is inside:
+- Admin panel for signUp and login
+- Add / delete / edit new item
+- Search bar
+
