@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*--------------------------- Main Page -------------------------*/
+.main-page-wrapper {
+}
+
+.main-page-name_input input{
+    height: 30px;
+    width: 200px;
+
+}
+.main-page-name_input {
+    margin: 20px 0;
+}
+
+.main-page-number_input {
+
+}
+
+.main-page-add-new_item {
+    display: block;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    text-align: center;
+    border: black 1px solid;
+}
+
+.main-page-add-new_item-button button:hover{
+    background-color: #f3cb85;
+
+}
+.main-page-add-new_item-button button{
+    padding: 7px 15px;
+    background-color: #fadda9;
+    border: 1px black solid;
+}
+.main-page-add-new_item-button button:active{
+    background-color: white;
+}
+.main-page-add-new_item-button {
+    margin: 20px 0;
+}
+
+.main-page-contacts-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main-page-name-contact {
+    display: block;
+}
+
+.main-page-item-buttons button {
+    padding: 7px;
+    margin: 7px;
+}
+
+.main-page-item-wrapper {
+    border: black 1px solid;
+    padding: 15px 0;
+    width: 80vw;
+    margin: 10px;
+    text-align: center;
+}
+.main-page-nothing-text{
+    text-transform: uppercase;
+    margin-top: 300px;
+}
+/*END--------------------------- Main Page -------------------------*/
+/*--------------------------- Login Component -------------------------*/
+.login-wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-under-wrapper {
+    box-shadow: 20px 16px #fadda9;
+    padding: 30px;
+    border: black 1px solid;
+    display: flex;
+    margin: auto;
+
+}
+
+.login-input input {
+    height: 35px;
+    font-size: 15px;
+    width: 200px;
+}
+
+.login-input {
+    margin: 10px 0;
+}
+
+.login-button button:hover {
+    transition: 0.2s;
+    background-color: #f8cf88;
+}
+
+.login-button button {
+    background-color: #fadda9;
+    border: 1px #9a9a9a solid;
+    padding: 10px;
+}
+
+.login-button button:active {
+    background-color: #ffffff;
+
+}
+
+.login-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-right: 10px;
+    text-align: right;
+}
+
+.login-error {
+    color: red;
+    font-size: 12px;
+}
+
+/*END--------------------------- Login Component -------------------------*/
