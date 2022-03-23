@@ -4,7 +4,7 @@
 ##Start project 
 - nmp start
  
-## Stack:
+##Stack:
 - React / Redux / Typescript / 
 
 ##What is inside:

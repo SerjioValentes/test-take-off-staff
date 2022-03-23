@@ -31,7 +31,7 @@ interface contactActionNumber {
 
 interface contactActionArray {
     type: contactsActionTypes.SET_CONTACTLIST;
-    payload: [];
+    payload: (string & number)[];
 }
 
 interface contactActionSearch {
@@ -41,7 +41,7 @@ interface contactActionSearch {
 
 interface contactActionSearchContactList {
     type: contactsActionTypes.SEARCH_CONTACT_LIST;
-    payload: [];
+    payload: (string & number)[];
 }
 
 interface contactActionSetIsSearch {
@@ -58,7 +58,7 @@ export interface ContactsState {
     isFetching: boolean,
     number: string,
     contactList: (string & number)[],
-    searchContactList: [],
+    searchContactList: (string & number)[],
 }
 
 export type ContactAction = contactActionSetIsSearch | contactActionSearchContactList | contactsActionName | contactActionNumber | contactActionArray | contactsActionNewName | contactsActionNewNumber | contactActionSearch
